@@ -4,7 +4,7 @@ import '../App.css'
 const Footer = () => {
     return (        
         <footer>
-           <a href = "https://github.com/SicParv1sMagna" alt = "githubIcon"><img src = "../Githubicon.png"/></a>
+           <a href = "https://github.com/SicParv1sMagna"><img src = "../Githubicon.png" alt = "githubImage"/></a>
         </footer>
     )
 } 
