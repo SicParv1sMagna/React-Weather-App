@@ -30,7 +30,7 @@ class App extends React.Component{
 
     this.setState({
       city: data.city.name,
-      tempreture: isNaN(Math.round(data.list[0].main.temp - 273.15)) ? undefined : Math.round(data.list[0].main.temp - 273.15),
+      tempreture: isNaN(Math.round(data.list[0].main.temp - 273.15)) ? undefined : (Math.round(data.list[0].main.temp - 273.15)).toString() + "°C",
       humidity: data.list[0].main.humidity,
       pressure: data.list[0].main.pressure,
       feelLike: isNaN(Math.round(data.list[0].main.feels_like - 273.15)) ? undefined : (Math.round(data.list[0].main.feels_like - 273.15).toString() + "°C"),
