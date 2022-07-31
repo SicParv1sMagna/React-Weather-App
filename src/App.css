@@ -210,7 +210,7 @@ body{
   background-color: var(--font-color);
   border-color: var(--font-color);
   color: var(--font-color-hover);
-  transition: all .1s linear;
+  transition: all .2s linear;
 }
 
 footer{
