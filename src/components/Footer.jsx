@@ -7,7 +7,7 @@ const Footer = () => {
            <a href = "https://github.com/SicParv1sMagna"><img src = "../Githubicon.png"/></a>
         </footer>
     )
-}
+} 
 
 export default Footer;
 

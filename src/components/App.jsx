@@ -37,7 +37,7 @@ class App extends React.Component{
       weather: data.list[0].weather[0].main,
       error: data.message
     });
-
+    
     let dailyTempArr = [];
     dailyTempArr.push((Math.round(data.list[0].main.temp - 273.15)).toString() + "°C");
     dailyTempArr.push((Math.round(data.list[8].main.temp - 273.15)).toString() + "°C");   

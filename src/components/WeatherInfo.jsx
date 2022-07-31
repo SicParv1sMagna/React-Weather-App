@@ -32,7 +32,7 @@ let bgChange = (event) => {
 class WeatherInfo extends React.Component{
 
     render() {
-        return (
+        return (  
             // <div>
                 <div className = "WeatherInfo">
                     <div className = "WeatherInfoSpace">

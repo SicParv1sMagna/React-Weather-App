@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 
 const Forecast = (props) => {
-    
+      
         return (
             <div className = "WeekForecast">
                 <h3>Week Forecast</h3>
