@@ -7,7 +7,7 @@ class Search extends React.Component{
         return (
             <div className = "d-flex flex-wrap align-items-center justify-content-around">
                 <div className = "Heading">
-                    <h1><img className = "AppIcon" src = "../AppIcon.png"/><span className = "WeatherApp">
+                    <h1><img className = "AppIcon" alt = "AppIcon" src = "../AppIcon.png"/><span className = "WeatherApp">
                     Weather App</span></h1>
                 </div>
                 <div className = "row align-items-start" id = "Wrapper">
